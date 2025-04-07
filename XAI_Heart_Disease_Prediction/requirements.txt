@@ -1,8 +1,7 @@
-pandas
+streamlit
 numpy
+pandas
 scikit-learn
 matplotlib
-seaborn
 shap
 lime
-jupyter
