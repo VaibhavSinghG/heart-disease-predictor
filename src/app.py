@@ -8,11 +8,11 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Load model
-with open("C:/Users/pc/OneDrive/Documents/java prog/XAI_Heart_Disease_Prediction/model/heart_disease_model.pkl", "rb") as f:
+with open("model/heart_disease_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load dataset
-df = pd.read_csv("C:/Users/pc/OneDrive/Documents/java prog/XAI_Heart_Disease_Prediction/data/heart.csv")
+df = pd.read_csv("data/heart.csv")
 X = df.drop("target", axis=1)
 feature_names = X.columns.tolist()
 
